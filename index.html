@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager with Local Storage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <div class="input-section">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add-button">Add</button>
+        </div>
+        <ul id="task-list">
+
+        </ul>
+
+        <div id="no-tasks" class="no-tasks">
+            No Tasks yet! Add a task to get started.
+        </div>
+
+        <div class="status-bar">
+            <span id="tasks-count">Total: 0 tasks</span>
+            <span id="completed-count">Completed: 0</span>
+        </div>
+
+        <button id="clear-all" class="clear-all">Clear All Tasks</button>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
+
